@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Leave Opps Dead (L.O.D)</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #111;
+      color: #eee;
+    }
+    header {
+      background: #222;
+      padding: 20px;
+      text-align: center;
+      border-bottom: 3px solid #e00;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+      color: #e00;
+    }
+    nav {
+      background: #1a1a1a;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 10px;
+    }
+    nav button {
+      background: #333;
+      color: #eee;
+      border: none;
+      margin: 5px;
+      padding: 10px 15px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    nav button:hover {
+      background: #e00;
+    }
+    .tab {
+      display: none;
+      padding: 30px;
+      text-align: center;
+    }
+    .tab.active {
+      display: block;
+    }
+    .tab img {
+      width: 250px;
+      height: 250px;
+      object-fit: cover;
+      background: #333; /* empty socket for images */
+      border-radius: 8px;
+      margin-bottom: 15px;
+    }
+    .tab h2 {
+      margin: 10px 0;
+      color: #e00;
+    }
+    .tab p {
+      max-width: 600px;
+      margin: auto;
+      line-height: 1.5;
+    }
+    footer {
+      background: #222;
+      text-align: center;
+      padding: 15px;
+      border-top: 3px solid #e00;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Leave Opps Dead (L.O.D)</h1>
+    <p>The Official Gang Page</p>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <button onclick="showTab('d9b')">d9b</button>
+    <button onclick="showTab('kroph')">kroph</button>
+    <button onclick="showTab('dusk')">dusk</button>
+    <button onclick="showTab('perth')">perth</button>
+    <button onclick="showTab('foidkiller')">foidkiller</button>
+    <button onclick="showTab('korvex')">korvex</button>
+    <button onclick="showTab('sanitar')">sanitar</button>
+    <button onclick="showTab('slate')">slate</button>
+    <button onclick="showTab('ajdin')">ajdin</button>
+    <button onclick="showTab('4ler')">4ler</button>
+  </nav>
+
+  <!-- Member Tabs -->
+  <section id="d9b" class="tab active">
+    <img src="https://media.discordapp.net/attachments/1462549542577901824/1473765125403054181/3A58BCCA-1CDB-44B5-9C06-6F7562620272.png?ex=6997663b&is=699614bb&hm=8d449f1928aa8ce1dec04c552fcb3a167f50a905611757c99b7e092f568180d7&=&format=webp&quality=lossless&width=627&height=460" alt="d9b">
+    <h2>d9b</h2>
+    <p>green hair blonde eyes.</p>
+  </section>
+
+  <section id="kroph" class="tab">
+    <img src="https://media.discordapp.net/attachments/1389034506882908272/1473373614500745316/2026021416513475.jpg?ex=69974b1b&is=6995f99b&hm=62070b9302d2b6dcedc47aaf5b1835264cc90c80fbe37aef7f1be7115cd423ea&=&format=webp&width=634&height=846" alt="kroph">
+    <h2>kroph</h2>
+    <p>albanian prince (illys bf btw the way).</p>
+    <p>Best accelerator player in aba.</p>
+  </section>
+
+  <section id="dusk" class="tab">
+    <img src="https://media.discordapp.net/attachments/1389034506882908272/1473706309852332339/IMG_6066.jpg?ex=69972f74&is=6995ddf4&hm=c8136f38832b389a55567a8d6a63a8506e05bb77597b4ba722ebb9d4c31564e0&=&format=webp&width=476&height=846" alt="dusk">
+    <h2>dusk</h2>
+    <p>ottoman sultan Augustus.</p>
+    <p>Best aba player.</p>
+  </section>
+
+  <section id="perth" class="tab">
+    <img src="" alt="perth">
+    <h2>perth</h2>
+    <p>6'7 uk prince.</p>
+  </section>
+
+  <section id="foidkiller" class="tab">
+    <img src="https://media.discordapp.net/attachments/1462549542577901824/1473767034126078042/wqcqw.jpg?ex=69976802&is=69961682&hm=967ce6bdd73a9da9369d5c4daeec2e019c04d1ecc01e34f33f20210679b5a440&=&format=webp&width=922&height=709" alt="foidkiller">
+    <h2>foidkiller</h2>
+    <p>rip foidkiller he foodkiller now.</p>
+  </section>
+
+  <section id="korvex" class="tab">
+    <img src="" alt="korvex">
+    <h2>korvex</h2>
+    <p>im not really sure.</p>
+  </section>
+
+  <section id="sanitar" class="tab">
+    <img src="https://media.discordapp.net/attachments/1404290312448376892/1473765880214323455/IMG_7231.jpg?ex=699766ef&is=6996156f&hm=7bfc36915e1b7391107b3dc58f30e80e75e66ae12717c0048867428103eac975&=&format=webp&width=1128&height=846" alt="sanitar">
+    <h2>sanitar</h2>
+    <p>random frame mogger in yo class.</p>
+  </section>
+
+  <section id="slate" class="tab">
+    <img src="https://media.gettyimages.com/id/690021320/photo/cute-little-boy-laughing-in-studio.jpg?s=612x612&w=gi&k=20&c=DxrHUul0UQN5c-Bt-SgCS0Mg2W9e7ZvMv6sEILT8kQM=" alt="slate">
+    <h2>slate</h2>
+    <p>lil ahh jit.</p>
+  </section>
+
+  <section id="ajdin" class="tab">
+    <img src="https://media.discordapp.net/attachments/1467576071913476220/1473765539607347200/Screenshot_20260107_053422_TikTok_1.webp?ex=6997669d&is=6996151d&hm=885e7fd360d2f2ffdad364ba0c330f18479648b1f392979d53ba3178909178c1&=&format=webp&width=485&height=752" alt="ajdin">
+    <h2>ajdin</h2>
+    <p>car mechanic.</p>
+  </section>
+
+  <section id="4ler" class="tab">
+    <img src="https://media.discordapp.net/attachments/1404290312448376892/1473767750781501632/image.png?ex=699768ad&is=6996172d&hm=5af9abf9a178acf5302d5d9013798623400553d5f0f949ea9870fdd3a9c405da&=&format=webp&quality=lossless&width=155&height=315" alt="4ler">
+    <h2>4ler</h2>
+    <p>loves brainrots.</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Leave Opps Dead (L.O.D). All rights reserved.</p>
+  </footer>
+
+  <script>
+    function showTab(id) {
+      document.querySelectorAll('.tab').forEach(tab => {
+        tab.classList.remove('active');
+      });
+      document.getElementById(id).classList.add('active');
+    }
+  </script>
+</body>
+</html>
